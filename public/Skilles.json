@@ -1,0 +1,50 @@
+ [
+    {
+      "id": 1,
+      "title": "HTML & CSS",
+      "color": "text-yellow-400",
+      "description":
+        "I create well-structured and semantic HTML pages styled with modern CSS and Tailwind, ensuring fully responsive, accessible, and visually polished layouts for all screen sizes."
+    },
+    {
+      "id": 2,
+      "title": "JavaScript",
+      "color": "text-blue-500",
+      "description":
+        "Proficient in ES6+ JavaScript for building dynamic and interactive web applications, handling DOM manipulation, APIs, and clean modular coding for maintainable projects."
+    },
+    {
+     "id": 3,
+      "title": "React",
+      "color": "text-green-500",
+     "description":
+        "Skilled in creating reusable React components, managing state with hooks, and building seamless, efficient, and fast user interfaces for modern single-page applications."
+    },
+    {
+      "id": 4,
+      "title": "Tailwind CSS",
+      "color": "text-purple-500",
+     "description":
+        "I use Tailwind CSS to craft responsive layouts quickly, leveraging its utility-first approach for elegant, clean, and consistent design systems across devices."
+    },
+    {
+     "id": 5,
+      "title": "Firebase",
+      "color": "text-orange-500",
+      "description":
+        "Experienced with Firebase for authentication, real-time databases, and hosting, enabling secure, scalable, and fast backend support for modern web applications."
+    },
+    {
+        "id": 6,
+        "title": "Node.js & Express",
+        "color": "text-green-500",
+        "description":
+            "Proficient in Node.js and Express for building robust server-side applications, handling RESTful APIs, middleware, and seamless integration with databases for full-stack development."
+    },
+    {
+  "id": 7,
+  "title": "MongoDB",
+  "color": "text-green-500",
+  "description": "Proficient in MongoDB for building flexible, scalable, NoSQL databases, including CRUD operations, schema design, aggregation pipelines, and seamless integration with Node.js/Express for modern web applications."
+}
+  ]

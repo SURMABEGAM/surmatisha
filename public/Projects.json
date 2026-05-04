@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "title": "Emergency Service App",
+    "desc": "Fast emergency response web app connecting users with nearby ambulance police fire services ensuring safety quick communication real time tracking",
+    "image": "./em.png",
+    "live": "https://remarkable-biscuit-7f2cfa.netlify.app/",
+    "github": "https://github.com/yourusername/emergency-app"
+  },
+  {
+    "id": 2,
+    "title": "Hero Apps Store",
+    "desc": "Modern productivity app store featuring tools for notes tasks workflows clean UI responsive design secure authentication and smooth user experience",
+    "image": "./hero.jpg",
+    "live": "https://hero-apps50.netlify.app/",
+    "github": "https://github.com/yourusername/hero-app"
+  },
+  {
+    "id": 3,
+    "title": "Pet Care Platform",
+    "desc": "Pet care management platform for booking vets tracking health scheduling appointments sharing pet profiles and connecting with trusted animal services easily",
+    "image": "./pet5.png",
+    "live": "https://pet-care-50.netlify.app/",
+    "github": "https://github.com/yourusername/petcare"
+  },
+  {
+    "id": 4,
+    "title": "Train Ticket Booking",
+    "desc": "Online train ticket booking system with seat selection payment integration booking history real time schedule updates and responsive mobile friendly interface",
+    "image": "./green house.jpg",
+    "live": "https://shimmering-kelpie-fc371e.netlify.app/",
+    "github": "https://github.com/SURMABEGAM/GREEN-HOUSE-ASS-6"
+  },
+  {
+    "id": 5,
+    "title": "Flower Shop Website",
+    "desc": "Elegant flower shop website with product showcase cart system order placement smooth animations modern design and fully responsive user friendly layout",
+    "image": "./flower.jpg",
+    "live": "https://cool-genie-933ec4.netlify.app/",
+    "github": "https://github.com/SURMABEGAM/Responsive-Flowers"
+  },
+  {
+    "id": 6,
+    "title": "CodeGuru Learning Platform",
+    "desc": "Interactive coding learning platform with tutorials challenges real time code editor progress tracking authentication system and engaging developer friendly interface",
+    "image": "./codeguru.jpg",
+    "live": "https://codeguru-project.netlify.app/",
+    "github": "https://github.com/SURMABEGAM/codeguru-client"
+  }]
