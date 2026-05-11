@@ -12,7 +12,6 @@ const ContactPage = () => {
   return (
     <div className="min-h-screen py-20 px-4">
       <div className="max-w-7xl mx-auto">
-        {/* HEADER */}
         <div className="text-center mb-16">
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">
             Get in{" "}
@@ -159,24 +158,8 @@ const ContactPage = () => {
             <div className="rounded-3xl overflow-hidden border border-white/20 shadow-2xl h-72 backdrop-blur-xl">
               <iframe
                 title="map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184.54588802887739!2d90.3405547142029!3d23.758409690298762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755bf8265ece061%3A0x4b8aa1cc7a58bb87!2sUkil%20Bari!5e1!3m2!1sen!2sbd!4v1778529874891!5m2!1sen!2sbd"
-                width="600"
-                height="450"
-                style="border:0;"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-                width="600"
-                height="450"
-                style="border:0;"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen=""
-                loading="lazy"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184.54588802887739!2d90.3405547142029!3d23.758409690298762!2m3!1f0!2f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755bf8265ece061%3A0x4b8aa1cc7a58bb87!2sUkil%20Bari!5e1!3m2!1sen!2sbd!4v1778529874891!5m2!1sen!2sbd"
+                className="w-full h-full"
               ></iframe>
             </div>
           </div>

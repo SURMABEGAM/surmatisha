@@ -180,11 +180,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
       {/* GLOW EFFECTS */}
-      <div className="absolute top-0 left-0 w-72 h-72 bg-sky-500/20 blur-[120px] rounded-full"></div>
-
-      <div className="absolute bottom--10 right-0 w-72 h-72 bg-purple-500/20 blur-[120px] rounded-full"></div>
+      <div className="absolute top-0 left-0 w-72 h-72 bg-sky-500/20 blur-[120px] rounded-full"></div>{" "}
+      <div className="absolute bottom-[-5px] left-0 w-full h-[10px] bg-[#0f172a]"></div>
     </footer>
   );
 };
