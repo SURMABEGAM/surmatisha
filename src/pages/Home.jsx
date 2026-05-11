@@ -5,17 +5,18 @@ import Hero from "../component/Hero";
 
 import Featurs from "../component/Featurs";
 import BackgroundSlider from "../component/BackgroundSlider";
-//import { PricingTable } from "../component/PricingTable";
-//import { Skilles  } from "module";
+import Project from "../component/Project";
+import About from "./About";
+import Skills from "./Skills";
 
 const Home = () => {
   return (
     <>
-      {/* 4. Footer / Contact */}
-
       <Hero />
       <Featurs />
 
+      <Project />
+      <Skills />
       <Contact />
     </>
   );

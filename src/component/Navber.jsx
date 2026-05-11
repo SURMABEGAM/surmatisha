@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { FiMenu, FiX } from "react-icons/fi";
+import surma from "../assets/images/surma.png";
 import { NavLink } from "react-router";
 
 const Navbar = () => {
@@ -14,10 +15,7 @@ const Navbar = () => {
         Project
       </NavLink>
       <NavLink to="/skills" className="hover:text-blue-500">
-        About
-      </NavLink>
-      <NavLink to="/education" className="hover:text-blue-500">
-        Education
+        Skills
       </NavLink>
       <NavLink to="/contact" className="hover:text-blue-500">
         Contact
@@ -30,11 +28,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex justify-between items-center px-4 py-3">
         {/* Logo */}
         <a href="/" className="flex items-center gap-2">
-          <img
-            src="/assets/surma.png"
-            className="w-10 h-10 rounded-full"
-            alt="logo"
-          />
+          <img src={surma} className="w-10 h-10 rounded-full" alt="logo" />
           <span className="font-bold text-lg text-gray-800 dark:text-white">
             SB Tisha
           </span>

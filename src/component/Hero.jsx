@@ -5,7 +5,7 @@ import {
   FaPinterestP,
 } from "react-icons/fa";
 import React from "react";
-import surma from "../assets/surma.png";
+import surma from "../assets/images/surma.png";
 import { FaXTwitter } from "react-icons/fa6";
 import Download from "./Download";
 import Facebook from "./Facebook";

@@ -1,10 +1,11 @@
 import { createBrowserRouter } from "react-router";
 import Root from "./Root";
 import Home from "../pages/Home";
-import About from "../pages/About";
+
 import Contact from "../pages/Contact";
-import Skilles from "../pages/Skilles";
+
 import Projects from "../component/Project";
+import Skills from "../pages/Skills";
 
 export const router = createBrowserRouter([
   {
@@ -12,10 +13,7 @@ export const router = createBrowserRouter([
     Component: Root,
     children: [{ index: true, Component: Home }],
   },
-  {
-    path: "/about",
-    Component: About,
-  },
+
   {
     path: "/project",
     Component: Projects,
@@ -25,12 +23,12 @@ export const router = createBrowserRouter([
     Component: Contact,
   },
   {
-    path: "/skilles",
-    Component: Skilles,
+    path: "/skills",
+    Component: Skills,
     loader: async () => {
-      const res = await fetch("/Skilles.json");
+      const res = await fetch("/Skills.json");
       const data = await res.json();
-      console.log("Skilles data loaded:", data);
+      console.log("Skills data loaded:", data);
       return data;
     },
   },

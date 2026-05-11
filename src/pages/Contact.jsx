@@ -10,102 +10,175 @@ import {
 
 const ContactPage = () => {
   return (
-    <div className="min-h-screen  from-base-100 to-base-200 dark:from-gray-900 dark:to-gray-800 py-12 px-4">
+    <div className="min-h-screen py-20 px-4">
       <div className="max-w-7xl mx-auto">
-        {/* Header */}
-        <div className="text-center mb-12">
-          <h1 className="text-5xl md:text-6xl font-bold text-gray-800 dark:text-white mb-4">
-            Get in Touch
+        {/* HEADER */}
+        <div className="text-center mb-16">
+          <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">
+            Get in{" "}
+            <span className="bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
+              Touch
+            </span>
           </h1>
-          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            Have a question or feedback? We're here to help you 24/7.
+
+          <p className="text-gray-300 text-lg max-w-2xl mx-auto">
+            Have a question or feedback? We are always ready to help you.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          {/* Form */}
-          <div className="bg-white dark:bg-gray-800 rounded-3xl shadow-xl p-8">
-            <h2 className="text-2xl font-bold mb-6 text-gray-800 dark:text-white">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+          {/* FORM */}
+          <div
+            className="
+            bg-white/10
+            backdrop-blur-xl
+            border border-white/20
+            rounded-3xl
+            shadow-2xl
+            p-8
+            "
+          >
+            <h2 className="text-3xl font-bold text-white mb-8">
               Send us a Message
             </h2>
 
             <form className="space-y-5">
               <input
-                className="input input-bordered w-full"
+                type="text"
                 placeholder="Full Name"
-              />
-              <input
-                className="input input-bordered w-full"
-                placeholder="Email Address"
-              />
-              <input
-                className="input input-bordered w-full"
-                placeholder="Subject"
-              />
-              <textarea
-                className="textarea textarea-bordered w-full"
-                rows="5"
-                placeholder="Message"
+                className="
+                w-full p-4 rounded-xl
+                bg-white/10
+                border border-white/20
+                text-white
+                placeholder-gray-300
+                outline-none
+                focus:border-sky-600
+                "
               />
 
-              <button className="btn btn-primary w-full rounded-full flex items-center gap-2">
-                <Send size={18} /> Send Message
+              <input
+                type="email"
+                placeholder="Email Address"
+                className="
+                w-full p-4 rounded-xl
+                bg-white/10
+                border border-white/20
+                text-white
+                placeholder-gray-300
+                outline-none
+                focus:border-sky-600
+                "
+              />
+
+              <input
+                type="text"
+                placeholder="Subject"
+                className="
+                w-full p-4 rounded-xl
+                bg-white/10
+                border border-white/20
+                text-white
+                placeholder-gray-300
+                outline-none
+                focus:border-sky-600
+                "
+              />
+
+              <textarea
+                rows="5"
+                placeholder="Message"
+                className="
+                w-full p-4 rounded-xl
+                bg-white/10
+                border border-white/20
+                text-white
+                placeholder-gray-300
+                outline-none
+                focus:border-sky-600
+                "
+              ></textarea>
+
+              <button
+                className="
+                w-full py-4 rounded-xl
+                bg-gradient-to-r from-sky-700 to-purple-600
+                text-white font-bold
+                flex items-center justify-center gap-2
+                hover:scale-105
+                transition duration-300
+                "
+              >
+                <Send size={18} />
+                Send Message
               </button>
             </form>
           </div>
 
-          {/* Info */}
+          {/* RIGHT SIDE */}
           <div className="space-y-6">
+            {/* CONTACT BOXES */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-              <div className="bg-gradient-to-br from-blue-500 to-cyan-500 text-white p-6 rounded-2xl text-center">
-                <Mail className="mx-auto mb-2" />
-                <h3 className="font-bold">Email</h3>
-                <p className="text-sm">support@utilitybill.com</p>
+              <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl p-6 text-center text-white">
+                <Mail className="mx-auto mb-3 text-sky-700" />
+                <h3 className="font-bold mb-1">Email</h3>
+                <p className="text-sm text-gray-300">support@utilitybill.com</p>
               </div>
 
-              <div className="bg-gradient-to-br from-green-500 to-emerald-500 text-white p-6 rounded-2xl text-center">
-                <Phone className="mx-auto mb-2" />
-                <h3 className="font-bold">Call</h3>
-                <p className="text-sm">+880 123 456 789</p>
+              <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl p-6 text-center text-white">
+                <Phone className="mx-auto mb-3 text-green-400" />
+                <h3 className="font-bold mb-1">Call</h3>
+                <p className="text-sm text-gray-300">+880 123 456 789</p>
               </div>
 
-              <div className="bg-gradient-to-br from-purple-500 to-pink-500 text-white p-6 rounded-2xl text-center">
-                <MessageCircle className="mx-auto mb-2" />
-                <h3 className="font-bold">Live Chat</h3>
-                <p className="text-sm">24/7 Available</p>
+              <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl p-6 text-center text-white">
+                <MessageCircle className="mx-auto mb-3 text-pink-400" />
+                <h3 className="font-bold mb-1">Live Chat</h3>
+                <p className="text-sm text-gray-300">24/7 Available</p>
               </div>
             </div>
 
-            {/* Address */}
-            <div className="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-lg">
-              <div className="flex gap-3">
-                <MapPin className="text-primary" />
+            {/* ADDRESS */}
+            <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl p-6 shadow-xl">
+              <div className="flex gap-4 items-start">
+                <MapPin className="text-sky-700 mt-1" />
+
                 <div>
-                  <h3 className="font-bold text-white">Office Address</h3>
-                  <p className="text-gray-300">Mirpur, Dhaka, Bangladesh</p>
+                  <h3 className="font-bold text-white text-lg">
+                    Office Address
+                  </h3>
+
+                  <p className="text-gray-300">
+                    Mohammadpur, Dhaka, Bangladesh
+                  </p>
                 </div>
               </div>
             </div>
 
-            {/* Map */}
-            <div className="rounded-2xl overflow-hidden h-64 shadow-lg">
+            {/* GOOGLE MAP */}
+            <div className="rounded-3xl overflow-hidden border border-white/20 shadow-2xl h-72 backdrop-blur-xl">
               <iframe
                 title="map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.277!2d90.366!3d23.806"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184.54588802887739!2d90.3405547142029!3d23.758409690298762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755bf8265ece061%3A0x4b8aa1cc7a58bb87!2sUkil%20Bari!5e1!3m2!1sen!2sbd!4v1778529874891!5m2!1sen!2sbd"
+                width="600"
+                height="450"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                width="600"
+                height="450"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
                 width="100%"
                 height="100%"
-                loading="lazy"
                 style={{ border: 0 }}
+                allowFullScreen=""
+                loading="lazy"
               ></iframe>
             </div>
-          </div>
-        </div>
-
-        {/* Footer Badge */}
-        <div className="text-center mt-16">
-          <div className="inline-flex items-center gap-2 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 px-6 py-3 rounded-full">
-            <CheckCircle size={18} />
-            Average response time: under 2 hours
           </div>
         </div>
       </div>
