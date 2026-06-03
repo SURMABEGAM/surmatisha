@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { FaGithub } from "react-icons/fa";
 import { motion } from "framer-motion";
-import bg9 from "../assets/images/bg9.jpg";
+
 const Project = () => {
   const [projects, setProjects] = useState([]);
 
@@ -16,7 +16,7 @@ const Project = () => {
   }, []);
 
   return (
-    <section className="relative py-24 px-6 overflow-hidden">
+    <section className="relative py-24 px-6 overflow-hidden bg-transparent">
       {/* dark overlay */}
       <div className="absolute inset-0\"></div>
 

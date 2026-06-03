@@ -24,7 +24,7 @@ const Navbar = () => {
   );
 
   return (
-    <nav className="w-full fixed top-0 left-0 z-50 bg-white/70 dark:bg-gray-900/70 backdrop-blur-md shadow-md">
+    <nav className="w-full fixed top-0 left-0 z-40 bg-white/70 dark:bg-gray-900/70 backdrop-blur-md shadow-md">
       <div className="max-w-7xl mx-auto flex justify-between items-center px-4 py-3">
         {/* Logo */}
         <a href="/" className="flex items-center gap-2">
