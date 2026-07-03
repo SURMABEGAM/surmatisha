@@ -25,8 +25,25 @@ const Switch = () => {
             </svg>
             <div className="square" />
           </span>
-          <p className="title">Download CV</p>
-          <p className="title">Open</p>
+          <p className="title">
+            <a
+              href="/Surma_Begam_Tisha_CV.pdf"
+              download
+              className="text-white hover:text-blue-300"
+            >
+              Download CV
+            </a>
+          </p>
+          <p className="title">
+            <a
+              href="/Surma_Begam_Tisha_CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-blue-300"
+            >
+              Open
+            </a>
+          </p>
         </label>
       </div>
     </StyledWrapper>
